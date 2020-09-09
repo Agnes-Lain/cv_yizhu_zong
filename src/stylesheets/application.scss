@@ -1,3 +1,26 @@
+@import "config";
 @import "components/navbar";
-@import "components/about"
+@import "components/about";
+@import "components/progress";
 
+
+h1{
+  font-family: $title;
+  font-size: 40px;
+}
+
+h2,h3 {
+  font-family: $chapter;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p,h4,h5,h6 {
+  font-family: $title;
+}
