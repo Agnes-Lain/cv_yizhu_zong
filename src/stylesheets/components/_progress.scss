@@ -1,0 +1,14 @@
+.progress-bar {
+  background-color: $gold !important;
+}
+
+.progress_item {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+
+ .progress {
+  padding-left: 0px !important;
+  width: 400px;
+ }
+}
