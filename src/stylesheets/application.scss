@@ -2,15 +2,17 @@
 @import "components/navbar";
 @import "components/about";
 @import "components/progress";
-
+@import "components/profile_photo";
 
 h1{
   font-family: $title;
   font-size: 40px;
+  font-weight:700;
+  font-style: bold;
 }
 
-h2,h3 {
-  font-family: $chapter;
+h2, h3, h4, h5, h6 {
+  font-family: $sub-title;
 }
 
 h2{
@@ -21,6 +23,15 @@ h3 {
   font-size: 32px;
 }
 
-p,h4,h5,h6 {
-  font-family: $title;
+p {
+  font-family: $text;
+}
+
+p {
+  font-weight: 400;
+}
+
+body {
+  // background-image: linear-gradient(rgba(155, 206, 181, 0.8),rgba(155, 206, 181, 0.8)), url('https://images.unsplash.com/photo-1547998872-71a44f061d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
+  background-color: $light-beige;
 }
