@@ -4577,12 +4577,9 @@ exports.push([module.i, "/*!\n * Bootstrap v4.3.1 (https://getbootstrap.com/)\n 
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/stylesheets/application.scss ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
-// Module
-exports.push([module.i, ".navbar-lewagon {\n  justify-content: space-between;\n  height: 77px; }\n\n.navbar-lewagon .navbar-collapse {\n  flex-grow: 0; }\n\n.navbar-lewagon a {\n  color: #669fb2 !important;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 700;\n  letter-spacing: 3px; }\n  .navbar-lewagon a:hover {\n    opacity: 0.8; }\n\n#toggle:hover div {\n  width: 30px; }\n\n.intro {\n  background-position: center;\n  background-size: cover;\n  background-color: #669fb2;\n  align-items: center;\n  padding: 0px 50px;\n  height: 100vh; }\n  .intro h1 {\n    font-weight: 200;\n    color: #FAEDDF;\n    font-size: 80px; }\n  .intro p {\n    color: #FAEDDF;\n    font-size: 18px; }\n\n#profile-photo {\n  width: 500px;\n  position: absolute;\n  right: 100px; }\n\n.title {\n  overflow: scroll;\n  height: 100vh;\n  color: #383E56;\n  padding-right: 0px !important;\n  padding-left: 30px; }\n\n.about {\n  padding: 0px 50px;\n  align-items: center;\n  background-color: #f9f7f1;\n  color: #b78763; }\n  .about h2 {\n    color: #dd802c; }\n  .about p {\n    color: #b78763; }\n  .about span {\n    font-family: \"Poppins\", sans-serif;\n    font-weight: 100;\n    font-size: 12px; }\n\n.space-line {\n  border-left: 1px solid #dd802c;\n  height: 60px; }\n\n.progress-bar {\n  background-color: #BF9969 !important; }\n\n.nav-bg {\n  background-position: center;\n  background-size: cover; }\n\nh1 {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 40px;\n  font-weight: 700;\n  font-style: bold; }\n\nh2, h3, h4, h5, h6 {\n  font-family: \"Cormorant Garamond\", serif; }\n\nh2 {\n  font-size: 40px; }\n\nh3 {\n  font-size: 32px; }\n\np {\n  font-family: \"Maven Pro\", sans-serif; }\n\np {\n  font-weight: 400; }\n\nbody {\n  background-color: #FAEDDF; }\n", ""]);
-
+throw new Error("Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Invalid CSS after '...onents/navbar\";': expected 1 selector or at-rule, was \"<<<<<<< HEAD\"\n        on line 2 of /Users/zongyizhu/code/Agnes-Lain/cv_yizhu_zong/src/stylesheets/application.scss\n>> @import \"components/navbar\";\n\n   ----------------------------^\n");
 
 /***/ }),
 
