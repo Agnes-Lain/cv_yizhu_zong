@@ -12,7 +12,7 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon a {
+.navbar-brand {
   color:$blue !important;
   // text-decoration: none;
   font-family: $title;
@@ -26,6 +26,10 @@
 
 
 #toggle div:first-of-type {
+  width:20px;
+}
+
+#toggle div:last-of-type {
   width:25px;
 }
 
@@ -34,9 +38,29 @@
   margin-bottom: 6px;
   transition: all 0.3s linear;
   background-color: $blue;
+  width:17px;
   opacity: 0.8;
-  &:hover {
+}
+
+#toggle:hover {
+  div {
     width: 30px;
     opacity: 1;
   }
+}
+
+.on div {
+    opacity: 0;
+    margin-left: -2px;
+}
+.on div:first-of-type {
+    transform: rotate3d(0,0,1,45deg) translate(9px,6px);
+    width: 30px !important;
+    opacity: 1;
+}
+
+.on div:last-of-type {
+    transform: rotate3d(0,0,1,-45deg) translate(6px,-4px);
+    width: 30px !important;
+    opacity: 1;
 }

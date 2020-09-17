@@ -14,61 +14,40 @@
   </head>
   <body>
     <!-- navbar wagon style with dropdown -->
-    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon d-flex flex-row justify-content-between">
-      <a class="navbar-brand" href="#">
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <a class="navbar-brand" href="#home">
         <i class="fas fa-terminal"></i> YIZHU ZONG
       </a>
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <div class="toggle-holder">
-            <div id="toggle" class="">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <a href="" class="active d-flex justify-content-between">
-              <span class="char1" aria-hidden="true">A</span>
-              <span class="char1" aria-hidden="true">B</span>
-              <span class="char1" aria-hidden="true">O</span>
-              <span class="char1" aria-hidden="true">U</span>
-              <span class="char1" aria-hidden="true">T</span>
-            </a>
-            <a href="" class="d-flex justify-content-between">
-              <span class="char1" aria-hidden="true">S</span>
-              <span class="char1" aria-hidden="true">K</span>
-              <span class="char1" aria-hidden="true">I</span>
-              <span class="char1" aria-hidden="true">L</span>
-              <span class="char1" aria-hidden="true">L</span>
-              <span class="char1" aria-hidden="true">S</span>
-            </a>
-            <a href="" class="d-flex justify-content-between">
-              <span class="char1" aria-hidden="true">R</span>
-              <span class="char1" aria-hidden="true">E</span>
-              <span class="char1" aria-hidden="true">S</span>
-              <span class="char1" aria-hidden="true">U</span>
-              <span class="char1" aria-hidden="true">M</span>
-              <span class="char1" aria-hidden="true">E</span>
-            </a>
-            <a href="" class="d-flex justify-content-between">
-              <span class="char1" aria-hidden="true">P</span>
-              <span class="char1" aria-hidden="true">R</span>
-              <span class="char1" aria-hidden="true">O</span>
-              <span class="char1" aria-hidden="true">J</span>
-              <span class="char1" aria-hidden="true">E</span>
-              <span class="char1" aria-hidden="true">C</span>
-              <span class="char1" aria-hidden="true">T</span>
-              <span class="char1" aria-hidden="true">S</span>
-            </a>
-          </div>
-        </li>
-      </ul>
+<!--       <ul class="navbar-nav mr-3">
+        <li class="nav-item "> -->
+      <div class="toggle-holder">
+        <div id="toggle" class="mr-3">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+<!--         </li>
+      </ul> -->
     </div>
     <!-- navbar end here -->
 
+    <!-- hiding slide nav list  -->
+    <div class="slide-menu">
+      <ul>
+        <li><a href="#home" class="">Home</a></li>
+        <li class="mt-3"><a href="#about-me" class="">About</a></li>
+        <li class="mt-3"><a href="#skills" class="">Skills</a></li>
+        <li class="mt-3"><a href="#education" class="">Education</a></li>
+        <li class="mt-3"><a href="#experience" class="">Experiences</a></li>
+        <li class="mt-3"><a href="#projects" class="">Projects</a></li>
+        <li class="mt-3"><a href="#contact" class="">Contact</a></li>
+      </ul>
+    </div>
+    <!-- end of hiding slide -->
+
     <div class="container">
-      <div class="row">
+      <div class="row" id="home">
         <!-- profile photo -->
         <div class="col-4 d-flex flex-column profile" >
           <div class="profile-photo" style="background-image: linear-gradient(rgba(246, 219, 188, 0.3),rgba(246, 219, 188, 0.3)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1600302866/cv%20element/Yizhu_Zong_2_z0haby.jpg')">
@@ -92,7 +71,7 @@
             </div>
           </div>
 
-          <div class="about">
+          <div class="about" id="about-me">
             <h2 class="pt-5">About</h2>
             <div class="space-line"></div>
             <p class="pt-3"> I am a curious person, passionate with empathy, pragmatic, autonomous, a fast learner with full energy, self-motivation, performance-driven type!</p>

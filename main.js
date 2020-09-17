@@ -4581,7 +4581,7 @@ exports.push([module.i, "/*!\n * Bootstrap v4.3.1 (https://getbootstrap.com/)\n 
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".navbar-lewagon {\n  justify-content: space-between;\n  height: 70px;\n  position: sticky;\n  background-color: #FAEDDF;\n  top: 0;\n  z-index: 100; }\n\n.navbar-lewagon .navbar-collapse {\n  flex-grow: 0; }\n\n.navbar-lewagon a {\n  color: #669fb2 !important;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 700;\n  letter-spacing: 3px;\n  opacity: 0.8; }\n  .navbar-lewagon a:hover {\n    opacity: 1; }\n\n#toggle div:first-of-type {\n  width: 25px; }\n\n#toggle div {\n  height: 3px;\n  margin-bottom: 6px;\n  transition: all 0.3s linear;\n  background-color: #669fb2;\n  opacity: 0.8; }\n  #toggle div:hover {\n    width: 30px;\n    opacity: 1; }\n\n.intro {\n  background-position: center;\n  background-size: cover;\n  background-color: #669fb2;\n  align-items: center;\n  padding: 0px 50px;\n  height: 100vh; }\n  .intro h1 {\n    font-weight: 200;\n    color: #FAEDDF;\n    font-size: 80px; }\n  .intro p {\n    color: #FAEDDF;\n    font-size: 18px; }\n\n.title {\n  overflow: scroll;\n  height: 100vh;\n  color: #383E56;\n  padding-right: 0px !important;\n  padding-left: 20px; }\n\n.about {\n  padding: 0px 50px;\n  align-items: center;\n  background-color: #f9f7f1;\n  color: #b78763; }\n  .about h2 {\n    color: #dd802c; }\n  .about p {\n    color: #b78763; }\n  .about span {\n    font-family: \"Poppins\", sans-serif;\n    font-weight: 100;\n    font-size: 12px; }\n\n.space-line {\n  border-left: 1px solid #dd802c;\n  height: 60px; }\n\n.progress-bar {\n  background-color: #BF9969 !important; }\n\n.progress_item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center; }\n  .progress_item .progress {\n    padding-left: 0px !important;\n    width: 400px; }\n\n.profile-photo {\n  background-position: center;\n  background-size: cover;\n  height: 100%; }\n\n.profile-follow a {\n  font-size: 24px;\n  color: #b78763;\n  text-decoration: none;\n  opacity: 0.6;\n  transition: all .2s ease-in-out; }\n  .profile-follow a:hover {\n    opacity: 0.8;\n    transform: scale(1.2); }\n\n.profile {\n  position: sticky;\n  top: 70px;\n  height: 80vh; }\n\nh1 {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 40px;\n  font-weight: 700;\n  font-style: bold; }\n\nh2, h3, h4, h5, h6 {\n  font-family: \"Cormorant Garamond\", serif; }\n\nh2 {\n  font-size: 40px; }\n\nh3 {\n  font-size: 32px; }\n\np {\n  font-family: \"Maven Pro\", sans-serif; }\n\np {\n  font-weight: 400; }\n\nbody {\n  background-color: #FAEDDF; }\n", ""]);
+exports.push([module.i, ".navbar-lewagon {\n  justify-content: space-between;\n  height: 70px;\n  position: sticky;\n  background-color: #FAEDDF;\n  top: 0;\n  z-index: 100; }\n\n.navbar-lewagon .navbar-collapse {\n  flex-grow: 0; }\n\n.navbar-brand {\n  color: #669fb2 !important;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 700;\n  letter-spacing: 3px;\n  opacity: 0.8; }\n  .navbar-brand:hover {\n    opacity: 1; }\n\n#toggle div:first-of-type {\n  width: 20px; }\n\n#toggle div:last-of-type {\n  width: 25px; }\n\n#toggle div {\n  height: 3px;\n  margin-bottom: 6px;\n  transition: all 0.3s linear;\n  background-color: #669fb2;\n  width: 17px;\n  opacity: 0.8; }\n\n#toggle:hover div {\n  width: 30px;\n  opacity: 1; }\n\n.on div {\n  opacity: 0;\n  margin-left: -2px; }\n\n.on div:first-of-type {\n  transform: rotate3d(0, 0, 1, 45deg) translate(9px, 6px);\n  width: 30px !important;\n  opacity: 1; }\n\n.on div:last-of-type {\n  transform: rotate3d(0, 0, 1, -45deg) translate(6px, -4px);\n  width: 30px !important;\n  opacity: 1; }\n\n.intro {\n  background-position: center;\n  background-size: cover;\n  background-color: #669fb2;\n  align-items: center;\n  padding: 0px 50px;\n  height: 100vh; }\n  .intro h1 {\n    font-weight: 200;\n    color: #FAEDDF;\n    font-size: 80px; }\n  .intro p {\n    color: #FAEDDF;\n    font-size: 18px; }\n\n.title {\n  overflow: scroll;\n  height: 100vh;\n  color: #383E56;\n  padding-right: 0px !important;\n  padding-left: 20px; }\n\n.about {\n  padding: 0px 50px;\n  align-items: center;\n  background-color: #f9f7f1;\n  color: #dd802c; }\n  .about p {\n    color: #b78763; }\n  .about span {\n    font-family: \"Poppins\", sans-serif;\n    font-weight: 100;\n    font-size: 12px; }\n\n.space-line {\n  border-left: 1px solid #dd802c;\n  height: 60px; }\n\n.progress-bar {\n  background-color: #669fb2 !important; }\n\n.progress_item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center; }\n  .progress_item .progress {\n    padding-left: 0px !important;\n    width: 400px; }\n\n.profile-photo {\n  background-position: center;\n  background-size: cover;\n  height: 100%; }\n\n.profile-follow a {\n  font-size: 24px;\n  color: #b78763;\n  text-decoration: none;\n  opacity: 0.6;\n  transition: all .2s ease-in-out; }\n  .profile-follow a:hover {\n    opacity: 0.8;\n    transform: scale(1.2); }\n\n.profile {\n  position: sticky;\n  top: 70px;\n  height: 80vh; }\n\n.slide-menu {\n  width: 250px;\n  height: 100vh;\n  padding: 25px;\n  position: absolute;\n  right: -100%;\n  top: 70px;\n  z-index: 99;\n  background-color: #FAEDDF;\n  transition: all .3s ease-in-out; }\n  .slide-menu li {\n    list-style: none; }\n  .slide-menu a {\n    text-decoration: none;\n    color: #b78763;\n    font-family: \"Poppins\", sans-serif;\n    font-weight: 200;\n    letter-spacing: 2px;\n    transition: all .3s ease-in-out; }\n\n.slide-menu a:hover {\n  color: #669fb2;\n  font-weight: 500; }\n\n.link-active {\n  color: #669fb2;\n  font-weight: 500; }\n\n.menu-active {\n  right: 0px !important; }\n\nh1 {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 40px;\n  font-weight: 700;\n  font-style: bold; }\n\nh2, h3, h4, h5, h6 {\n  font-family: \"Cormorant Garamond\", serif; }\n\nh2 {\n  font-size: 40px; }\n\nh3 {\n  font-size: 32px; }\n\np {\n  font-family: \"Maven Pro\", sans-serif; }\n\np {\n  font-weight: 400; }\n\nbody {\n  background-color: #FAEDDF;\n  overflow-x: hidden; }\n\nhtml {\n  overflow-x: hidden; }\n", ""]);
 
 
 /***/ }),
@@ -18254,7 +18254,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_scss_bootstrap_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_scss_bootstrap_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _stylesheets_application_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../stylesheets/application.scss */ "./src/stylesheets/application.scss");
 /* harmony import */ var _stylesheets_application_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_application_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _init_menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./init_menu */ "./src/javascripts/init_menu.js");
 
+
+
+
+
+
+
+Object(_init_menu__WEBPACK_IMPORTED_MODULE_3__["initMenu"])();
+
+
+/***/ }),
+
+/***/ "./src/javascripts/init_menu.js":
+/*!**************************************!*\
+  !*** ./src/javascripts/init_menu.js ***!
+  \**************************************/
+/*! exports provided: initMenu */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initMenu", function() { return initMenu; });
+const initMenu = () => {
+  const menueButton = document.querySelector(".toggle-holder");
+  const slideMenu = document.querySelector(".slide-menu");
+  menueButton.addEventListener('click', (event) => {
+    if (slideMenu.classList.contains('menu-active')) {
+      slideMenu.classList.remove('menu-active');
+      menueButton.classList.remove('on');
+    } else {
+      slideMenu.classList.add('menu-active');
+      menueButton.classList.add('on');
+    }
+  });
+};
 
 
 

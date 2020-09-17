@@ -3,6 +3,7 @@
 @import "components/about";
 @import "components/progress";
 @import "components/profile_photo";
+@import "components/slide_menu";
 
 
 h1{
@@ -34,4 +35,9 @@ p {
 
 body {
   background-color: $light-beige;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
