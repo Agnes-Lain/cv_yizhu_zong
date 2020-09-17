@@ -24,6 +24,19 @@
   }
 }
 
-#toggle:hover div {
+
+#toggle div:first-of-type {
+  width:25px;
+}
+
+#toggle div {
+  height: 3px;
+  margin-bottom: 6px;
+  transition: all 0.3s linear;
+  background-color: $blue;
+  opacity: 0.8;
+  &:hover {
     width: 30px;
+    opacity: 1;
+  }
 }
