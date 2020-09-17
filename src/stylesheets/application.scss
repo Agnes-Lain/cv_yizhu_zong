@@ -1,9 +1,9 @@
 @import "config";
 @import "components/navbar";
-<<<<<<< HEAD
 @import "components/about";
 @import "components/progress";
 @import "components/profile_photo";
+
 
 h1{
   font-family: $title;
@@ -33,10 +33,5 @@ p {
 }
 
 body {
-  // background-image: linear-gradient(rgba(155, 206, 181, 0.8),rgba(155, 206, 181, 0.8)), url('https://images.unsplash.com/photo-1547998872-71a44f061d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
   background-color: $light-beige;
 }
-=======
-@import "components/about"
-@import "components/progress"
->>>>>>> master

@@ -1,7 +1,11 @@
 
 .navbar-lewagon {
   justify-content: space-between;
-  height: 77px;
+  height: 70px;
+  position: sticky;
+  background-color: $light-beige;
+  top: 0;
+  z-index:100;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -14,8 +18,9 @@
   font-family: $title;
   font-weight: 700;
   letter-spacing: 3px;
+  opacity: 0.8;
   &:hover {
-    opacity: 0.8;
+    opacity: 1;
   }
 }
 

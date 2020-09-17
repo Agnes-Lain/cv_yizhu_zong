@@ -1,12 +1,23 @@
-.nav-bg {
-//   background-image: linear-gradient(rgba(246, 219, 188, 0.2),rgba(246, 219, 188, 0.2)), url("/src/media/Yizhu_Zong_2.jpg");
-//   x-index: 10;
+.profile-photo {
   background-position: center;
   background-size: cover;
-//   // position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   // transition-duration: 1s;
+  height:100%
+}
+
+.profile-follow a {
+  font-size: 24px;
+  color: $dark-brown;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: all .2s ease-in-out;
+  &:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+}
+
+.profile {
+  position:sticky;
+  top: 70px;
+  height:80vh;
 }
