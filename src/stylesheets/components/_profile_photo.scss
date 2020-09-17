@@ -1,0 +1,23 @@
+.profile-photo {
+  background-position: center;
+  background-size: cover;
+  height:100%
+}
+
+.profile-follow a {
+  font-size: 24px;
+  color: $brown;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: all .2s ease-in-out;
+  &:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+}
+
+.profile {
+  position:sticky;
+  top: 70px;
+  height:80vh;
+}
