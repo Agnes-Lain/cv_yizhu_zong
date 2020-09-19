@@ -2,10 +2,12 @@
 .navbar-lewagon {
   justify-content: space-between;
   height: 70px;
-  position: sticky;
-  background-color: $light-beige;
+  position: fixed;
   top: 0;
+  left:0;
+  background-color: $light-beige;
   z-index:100;
+  width:100%;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -49,18 +51,18 @@
   }
 }
 
-.on div {
+.on #toggle div {
     opacity: 0;
     margin-left: -2px;
 }
-.on div:first-of-type {
+.on #toggle div:first-of-type {
     transform: rotate3d(0,0,1,45deg) translate(9px,6px);
     width: 30px !important;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
-.on div:last-of-type {
+.on #toggle div:last-of-type {
     transform: rotate3d(0,0,1,-45deg) translate(6px,-4px);
     width: 30px !important;
-    opacity: 1;
+    opacity: 1 !important;
 }

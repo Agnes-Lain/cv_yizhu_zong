@@ -1,7 +1,8 @@
 .profile-photo {
   background-position: center;
   background-size: cover;
-  height:100%
+  height:80%;
+  // position:fixed;
 }
 
 .profile-follow a {
@@ -17,7 +18,7 @@
 }
 
 .profile {
-  position:sticky;
-  top: 70px;
-  height:80vh;
+  // position:fixed;
+  height:100vh;
+  width:350px;
 }

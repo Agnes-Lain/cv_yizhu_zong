@@ -1,6 +1,8 @@
 .progress-bar {
   background-color: $blue !important;
-  // text-align: left !important;
+  text-align: left !important;
+  padding-left: 20px;
+  height:110%;
 }
 
 
@@ -11,7 +13,7 @@
 
   .progress {
     padding-left: 0px !important;
-    width: 400px;
+    height: 1.2rem !important;
    }
 }
 

@@ -4,6 +4,8 @@
 @import "components/progress";
 @import "components/profile_photo";
 @import "components/slide_menu";
+@import "components/skills";
+@import "components/education";
 
 
 h1{
@@ -13,7 +15,12 @@ h1{
   font-style: bold;
 }
 
-h2, h3, h4, h5, h6 {
+h5, h6 {
+  font-family: $title;
+  font-weight:200;
+}
+
+h2, h3, h4 {
   font-family: $sub-title;
 }
 
@@ -30,12 +37,14 @@ p {
 }
 
 p {
-  font-weight: 400;
+  font-weight: 200;
 }
 
 body {
   background-color: $light-beige;
   overflow-x: hidden;
+  position:relative;
+  padding-top: 70px;
 }
 
 html {

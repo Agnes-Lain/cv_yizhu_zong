@@ -1,0 +1,28 @@
+#skills {
+  padding: 0px 80px;
+  align-items: center;
+  background-color: $dark-beige;
+  color: white;
+  h2 {
+    color: $blue;
+  }
+  span{
+    font-family: $title;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top:1rem;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+.progress-item {
+  .col-10, .col-2 {
+    padding: 0px 0px !important;
+  }
+}
+
+.language img {
+  width:28px;
+}

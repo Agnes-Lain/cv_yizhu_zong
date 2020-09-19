@@ -47,7 +47,7 @@
     <!-- end of hiding slide -->
 
     <div class="container">
-      <div class="row" id="home">
+      <div class="row">
         <!-- profile photo -->
         <div class="col-4 d-flex flex-column profile" >
           <div class="profile-photo" style="background-image: linear-gradient(rgba(246, 219, 188, 0.3),rgba(246, 219, 188, 0.3)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1600302866/cv%20element/Yizhu_Zong_2_z0haby.jpg')">
@@ -61,12 +61,13 @@
         </div>
         <!-- end profile photo -->
 
-        <!-- title + about -->
+        <!-- main title section-->
         <div class="title col-8">
-          <div class="intro d-flex flex-row">
-            <!-- <img id="profile-photo" src="/src/media/Yizhu Zong_2.jpg" alt="Profile photo"> -->
+
+          <!-- home and about -->
+          <div class="intro" id="home">
             <div class="intro-text">
-              <h1 class="py-5"> Hello, I'm<br> Yizhu Zong </h1>
+              <h1 class=""> Hello, I'm<br> Yizhu Zong </h1>
               <p class="introduction">Old time buyer, now comes back as a <strong> Full-stack web developer </strong> equiped with <i class="fas fa-gem"></i> Ruby on rails, <i class="fab fa-js"></i> javascript, <i class="far fa-file-code"></i> HTML, <i class="fab fa-css3"></i> CSS, <i class="fab fa-bootstrap"></i> Bootstrap, and so on...</p>
             </div>
           </div>
@@ -74,45 +75,89 @@
           <div class="about" id="about-me">
             <h2 class="pt-5">About</h2>
             <div class="space-line"></div>
-            <p class="pt-3"> I am a curious person, passionate with empathy, pragmatic, autonomous, a fast learner with full energy, self-motivation, performance-driven type!</p>
-            <h5 class="pt-3">Personality: <strong>ENTP</strong></h5>
+            <p class="pt-3">
+              Freshly certificated from le Wagon summer coding bootcamp batch-441, as a junior Full-stack Ruby-on-rail developer.
+              I am a curious person, passionate, empathic, pragmatic and autonomous, a fast learner with full energy, self-motivated and performance-driven type!
+            </p>
+            <p>
+              I have 15 years professional experiences in international business development fields as a buyer. But I choose to learn coding to revert myself with a new career path, in order to follow my passion of technologies and startup spirit!
+            </p>
+          </div>
+          <!-- end of home and about  -->
 
-            <h5 class="pt-3">Professional Behaviors</h5>
-            <div class="behavior pt-3">
-              <div class="progress-item">
-                <div class="progress mt-3">
-                  <div class="progress-bar" role="progressbar" style="width: 81%" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">81%</div>
+          <!-- skills section -->
+          <div id="skills">
+            <h2 class="pt-5">Skills</h2>
+            <div class="space-line"></div>
+
+            <h5 class="pt-5">Technical Skills</h5>
+            <div class="behavior">
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Ruby & Ruby on Rails</div>
                 </div>
-                <span class="col-6">Enterprising, triggers innovations</span>
+                <span class="col-2">&nbsp&nbsp&nbsp50%</span>
               </div>
-              <div class="progress-item">
-                <div class="progress mt-3">
-                  <div class="progress-bar" role="progressbar" style="width: 69%" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100">69%</div>
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
                 </div>
-                <span class="col-6">Mentor, build confidence in a team</span>
+                <span class="col-2">&nbsp&nbsp&nbsp45%</span>
               </div>
-              <div class="progress-item">
-                <div class="progress mt-3">
-                  <div class="progress-bar" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78%</div>
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Html/Css</div>
                 </div>
-                <span class="col-6">Intuitive, understands the big picture</span>
+                <span class="col-2">&nbsp&nbsp&nbsp65%</span>
               </div>
-              <div class="progress-item">
-                <div class="progress mt-3">
-                  <div class="progress-bar" role="progressbar" style="width: 74%" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100">74%</div>
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">SQL</div>
                 </div>
-                <span class="col-6">Direct, communicate with ease</span>
+                <span class="col-2">&nbsp&nbsp&nbsp70%</span>
               </div>
+            </div>
+
+            <h5 class="pt-5">Professional Behaviors</h5>
+            <div class="behavior">
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 81%" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">Enterprising, triggers innovations</div>
+                </div>
+                <span class="col-2">&nbsp&nbsp&nbsp81%</span>
+              </div>
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 69%" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100">Mentor, build confidence in a team</div>
+                </div>
+                <span class="col-2">&nbsp&nbsp&nbsp69%</span>
+              </div>
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">Intuitive, understands the big picture</div>
+                </div>
+                <span class="col-2">&nbsp&nbsp&nbsp78%</span>
+              </div>
+              <div class="progress-item d-flex flex-row justify-content-between">
+                <div class="progress mt-3 col-10">
+                  <div class="progress-bar" role="progressbar" style="width: 74%" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100">Direct, communicate with ease</div>
+                </div>
+                <span class="col-2">&nbsp&nbsp&nbsp74%</span>
+              </div>
+            </div>
 
 
             <div class="language mt-5">
-              <h4>Language</h4>
+              <h5 class="my-3">Languages</h5>
               <ul>
-                <li>Chinese</li>
-                <li>English</li>
-                <li>French</li>
+                <li><img src="https://cdn.countryflags.com/thumbs/china/flag-round-250.png" alt="Chinese"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                <li><img src="https://cdn.countryflags.com/thumbs/united-kingdom/flag-round-250.png" alt="English"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                <li><img src="https://cdn.countryflags.com/thumbs/france/flag-round-250.png" alt="French"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></li>
               </ul>
             </div>
+          </div>
+          <!-- end of skills section -->
+
             <div class="education">
               <h4>Education</h4>
               <p class=year>2008-2009</p>
@@ -126,11 +171,8 @@
               </p>
             </div>
 
-        </div>
-        <!-- end title + about -->
+          </div>
 
-        <!-- skills -->
-        <!-- end skills -->
 
         <!-- resume -->
           <div class="resume">
@@ -138,7 +180,6 @@
           </div>
         <!-- end experience -->
 
-      </div>
     </div>
     <script src="main.js"></script>
   </body>

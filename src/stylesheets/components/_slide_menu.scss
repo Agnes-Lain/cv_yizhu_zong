@@ -2,12 +2,12 @@
   width: 250px;
   height:100vh;
   padding: 25px;
-  position:absolute;
+  position:fixed;
   right:-100%;
   top:70px;
   z-index: 99;
   background-color: $light-beige;
-  transition: all .3s ease-in-out;
+  transition: all .5s ease-in-out;
   li {
     list-style: none;
   }
