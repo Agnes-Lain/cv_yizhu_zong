@@ -30,6 +30,10 @@
   // width: 760px;
   z-index: 98;
 
+  h2 {
+    color: $blue;
+  }
+
 }
 
 .about {
@@ -54,6 +58,11 @@
 
 .space-line {
   border-left: 1px solid $blue;
+  height:60px;
+}
+
+.space-line-light {
+  border-left: 1px solid $light-beige;
   height:60px;
 }
 
