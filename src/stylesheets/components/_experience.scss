@@ -1,0 +1,53 @@
+#experiences {
+  padding: 0px 80px;
+  align-items: center;
+  background-color: $blue;
+  color:$light-beige;
+  h2 {
+    color:$light-beige;
+  }
+}
+
+.resume {
+  summary {
+    background-color: $light-beige;
+    padding:5px 10px;
+    width: 100%;
+    border-radius: 6px;
+    color:$blue;
+    font-size: 16px;
+    font-family: $title;
+    font-weight: 200;
+  }
+  img {
+    height:1rem;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+// summary:before {
+//   color:$brown;
+// }
+
+// summary:after {
+//   color:$blue;
+// }
+
+details[open] {
+  background-color: white;
+  color: $blue;
+  border-radius: 3px;
+  padding-bottom: 15px;
+  h6, p, h4{
+    padding: 0px 15px;
+  }
+  h4, li {
+    color:$brown;
+  }
+  li {
+    font-family: $text;
+    font-weight: 200;
+  }
+}
