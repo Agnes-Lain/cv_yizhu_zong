@@ -20,6 +20,19 @@
   }
 }
 
+@media(min-width: 768px) {
+  .intro {
+    height: 50vh;
+    padding: 0px 70px;
+  }
+}
+
+@media(min-width: 992px) {
+  .intro {
+    height: 95vh;
+    padding: 0px 130px;
+  }
+}
 
 .title {
   overflow-y:scroll;

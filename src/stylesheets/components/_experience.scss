@@ -6,6 +6,9 @@
   h2 {
     color:$light-beige;
   }
+  strong {
+    font-weight: 600;
+  }
 }
 
 .resume {
@@ -17,13 +20,18 @@
     color:$blue;
     font-size: 16px;
     font-family: $title;
-    font-weight: 200;
   }
   img {
-    height:1rem;
+    height:1.5rem;
   }
   a {
     text-decoration: none;
+    color:$soil;
+    font-weight: 700;
+  }
+  .company-info {
+    color:$soil;
+    font-weight: 700;
   }
 }
 
@@ -39,7 +47,8 @@ details[open] {
   background-color: white;
   color: $blue;
   border-radius: 3px;
-  padding-bottom: 15px;
+  padding: 0px 10px 15px 10px;
+  text-align: justify;
   h6, p, h4{
     padding: 0px 15px;
   }
@@ -49,5 +58,6 @@ details[open] {
   li {
     font-family: $text;
     font-weight: 200;
+    padding-right: 15px;
   }
 }
