@@ -1,0 +1,39 @@
+.slide-menu {
+  width: 250px;
+  height:100vh;
+  padding: 25px;
+  position:fixed;
+  right:-100%;
+  top:70px;
+  z-index: 99;
+  background-color: $light-beige;
+  transition: all .5s ease-in-out;
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: $brown;
+    font-family: $title;
+    font-weight: 200;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.slide-menu a:hover{
+  color:$blue;
+  font-weight: 500;
+}
+
+.link-active {
+  color:$blue;
+  font-weight: 500;
+}
+
+.menu-active{
+  right:0px !important;
+}
+
+
+

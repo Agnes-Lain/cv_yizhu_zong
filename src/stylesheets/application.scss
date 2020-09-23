@@ -1,3 +1,51 @@
+@import "config";
 @import "components/navbar";
-@import "components/about"
-@import "components/progress"
+@import "components/about";
+@import "components/progress";
+@import "components/profile_photo";
+@import "components/slide_menu";
+@import "components/skills";
+@import "components/education";
+@import "components/experience";
+
+
+h1{
+  font-family: $title;
+  font-size: 40px;
+  font-weight:700;
+  font-style: bold;
+}
+
+h5, h6 {
+  font-family: $title;
+  font-weight:200;
+}
+
+h2, h3, h4 {
+  font-family: $sub-title;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  font-family: $text;
+  font-weight: 200;
+}
+
+
+body {
+  background-color: $light-beige;
+  overflow-x: hidden;
+  position:relative;
+  padding-top: 70px;
+}
+
+html {
+  overflow-x: hidden;
+}

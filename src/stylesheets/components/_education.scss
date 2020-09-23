@@ -1,0 +1,26 @@
+#education {
+  padding: 0px 80px;
+  align-items: center;
+  background-color: $light-grey;
+  p,h4 {
+    color:$brown;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h6 {
+    color: $blue;
+  }
+  .edu-info {
+    margin-left:40px;
+    // border-left: 1px solid $blue;
+    padding-left: 30px;
+  }
+
+}
+
+.edu-info:hover {
+  h6{
+    font-style: bold;
+  }
+}

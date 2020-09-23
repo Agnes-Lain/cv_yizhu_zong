@@ -1,0 +1,63 @@
+#experiences {
+  padding: 0px 80px;
+  align-items: center;
+  background-color: $blue;
+  color:$light-beige;
+  h2 {
+    color:$light-beige;
+  }
+  strong {
+    font-weight: 600;
+  }
+}
+
+.resume {
+  summary {
+    background-color: $light-beige;
+    padding:5px 10px;
+    width: 100%;
+    border-radius: 6px;
+    color:$blue;
+    font-size: 16px;
+    font-family: $title;
+  }
+  img {
+    height:1.5rem;
+  }
+  a {
+    text-decoration: none;
+    color:$soil;
+    font-weight: 700;
+  }
+  .company-info {
+    color:$soil;
+    font-weight: 700;
+  }
+}
+
+// summary:before {
+//   color:$brown;
+// }
+
+// summary:after {
+//   color:$blue;
+// }
+
+details[open] {
+  background-color: white;
+  color: $blue;
+  border-radius: 3px;
+  padding: 0px 10px 15px 10px;
+  text-align: justify;
+  h6, p, h4{
+    padding: 0px 15px;
+  }
+  h4, li {
+    color:$brown;
+  }
+  li {
+    font-family: $text;
+    font-weight: 200;
+    padding-right: 15px;
+  }
+}
