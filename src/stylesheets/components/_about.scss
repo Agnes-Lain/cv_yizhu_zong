@@ -22,7 +22,32 @@
 
 }
 
-@media(max-width: 1028px) {
+.title {
+  padding-right: 0px !important;
+  // left: 350px;
+  // width: 760px;
+  z-index: 98;
+
+  h2 {
+    color: $blue;
+  }
+}
+
+@media (min-width: 1029px) {
+  .title {
+    overflow-y: scroll;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1028px) {
+  .title {
+    overflow-y: scroll;
+    height: 100vh;
+    .about {
+      padding: 40px;
+    }
+  }
   .intro {
     .intro-text {
       padding: 80px 40px;
@@ -30,11 +55,11 @@
   }
 }
 
-@media(max-width: 815px) {
+@media (max-width: 815px) {
   .title {
-    overflow-y:none;
+    overflow-y: visible;
     .about {
-      padding: 0px 15px;
+      padding: 40px 15px;
     }
     .intro {
       width:100%;
@@ -50,22 +75,9 @@
 }
 
 
-.title {
-  overflow-y:scroll;
-  height: 100vh;
-  padding-right: 0px !important;
-  // left: 350px;
-  // width: 760px;
-  z-index: 98;
-
-  h2 {
-    color: $blue;
-  }
-
-}
 
 .about {
-  padding: 0px 80px;
+  padding: 80px 80px 40px 80px;
   align-items: center;
   background-color: $light-grey;
   color: $brown;
@@ -80,7 +92,7 @@
   p {
     text-align: justify;
     margin-bottom: 0px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 }
 
