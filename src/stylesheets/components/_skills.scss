@@ -20,6 +20,12 @@
   }
 }
 
+@media(max-width: 815px) {
+  #skills {
+    padding: 0px 15px;
+  }
+}
+
 .progress-item {
   .col-10, .col-2 {
     padding: 0px 0px !important;

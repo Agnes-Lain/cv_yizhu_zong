@@ -11,6 +11,12 @@
   }
 }
 
+@media(max-width: 815px) {
+  #experiences {
+    padding: 0px 15px;
+  }
+}
+
 .resume {
   summary {
     background-color: $light-beige;

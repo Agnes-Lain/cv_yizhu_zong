@@ -4,41 +4,56 @@
   background-size: cover;
   background-color: $blue;
   align-items: center;
-  padding: 0px 130px;
   height: 95vh;
+  .intro-text {
+    padding: 130px 80px;
+  }
   h1 {
     font-weight: 200;
     color: $light-beige;
     font-size: 80px;
-    padding-top: 150px;
-    padding-bottom:80px;
+    margin-bottom:80px;
   };
   p {
     color: $light-beige;
     font-size: 18px;
     text-align: justify;
   }
+
 }
 
-@media(min-width: 768px) {
+@media(max-width: 1028px) {
   .intro {
-    height: 50vh;
-    padding: 0px 70px;
+    .intro-text {
+      padding: 80px 40px;
+    }
   }
 }
 
-@media(min-width: 992px) {
-  .intro {
-    height: 95vh;
-    padding: 0px 130px;
+@media(max-width: 815px) {
+  .title {
+    overflow-y:none;
+    .about {
+      padding: 0px 15px;
+    }
+    .intro {
+      width:100%;
+      height:500px;
+      .intro-text {
+          padding: 80px 20px;
+        }
+      h1 {
+        font-size:54px;
+      }
+    }
   }
 }
+
 
 .title {
   overflow-y:scroll;
   height: 100vh;
-  // padding-right: 0px !important;
-  padding-left: 15px;
+  padding-right: 0px !important;
   // left: 350px;
   // width: 760px;
   z-index: 98;

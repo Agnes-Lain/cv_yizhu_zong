@@ -1,0 +1,32 @@
+
+.content-container {
+  width: 85%;
+  margin: 10px auto;
+  .content-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+  }
+}
+
+
+@media(max-width: 1024px){
+  .content-container {
+    width: 90%;
+    .content-row {
+    grid-template-columns: 1fr 2fr;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .content-container {
+    width: 95%;
+    .content-row {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+
+
