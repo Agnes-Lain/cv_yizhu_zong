@@ -1,5 +1,5 @@
 #education {
-  padding: 0px 80px;
+  padding: 80px;
   align-items: center;
   background-color: $light-grey;
   p,h4 {
@@ -27,6 +27,12 @@
 
 @media(max-width: 815px) {
   #education {
-    padding: 0px 15px;
+    padding: 40px 15px;
+  }
+}
+
+@media (max-width: 1028px) {
+    #education {
+    padding: 40px;
   }
 }

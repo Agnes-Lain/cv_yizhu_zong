@@ -1,5 +1,5 @@
 #skills {
-  padding: 0px 80px;
+  padding: 80px;
   align-items: center;
   background-color: $blue;
   color: $light-beige;
@@ -22,9 +22,16 @@
 
 @media(max-width: 815px) {
   #skills {
-    padding: 0px 15px;
+    padding: 40px 15px;
   }
 }
+
+@media (max-width: 1028px) {
+  #skills {
+    padding: 40px;
+  }
+}
+
 
 .progress-item {
   .col-10, .col-2 {
