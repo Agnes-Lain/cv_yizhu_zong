@@ -1,0 +1,5 @@
+const initProjectInfo = () => {
+
+};
+
+export { initProjectInfo };
