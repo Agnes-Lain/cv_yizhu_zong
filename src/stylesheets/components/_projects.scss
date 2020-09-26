@@ -1,5 +1,91 @@
 #projects {
   padding: 80px;
-  height:500px;
+  height:250px;
+  background-color: $light-grey;
+}
+
+#project1 {
+  position:relative;
+  .project-img {
+    background-position: top;
+    background-size: cover;
+    width:70%;
+    height:350px;
+    // z-index: 200;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .project-info {
+    height: 350px;
+    width: 30%;
+    // z-index: -1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding:20px;
+    background-color: $ocean;
+    color: $light-grey;
+  }
+
+}
+#project2 {
+  position:relative;
+  .project2-img {
+    background-position: bottom;
+    background-size: cover;
+    width:70%;
+    height:300px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    &:hover {
+      opacity: 0.8;
+    }
+    // z-index: 200;
+  }
+  .project2-info {
+    height: 300px;
+    width: 30%;
+    // z-index: -1;
+
+    padding:20px;
+    background-color: $red;
+    color: $light-grey;
+  }
+}
+
+#project3 {
+  position:relative;
+  .project3-img {
+    background-position: bottom;
+    background-size: cover;
+    width:70%;
+    height:295px;
+    // z-index: 200;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .project3-info {
+    height: 295px;
+    width: 30%;
+    // z-index: -1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding:20px;
+    background-color: $kaki;
+    color: $light-grey;
+  }
+}
+
+// .projects-flex {
+//   display:grid;
+//   grid-template-columns: 1fr 2fr;
+// }
+
+.project-footer {
+  height: 50px;
   background-color: $light-grey;
 }

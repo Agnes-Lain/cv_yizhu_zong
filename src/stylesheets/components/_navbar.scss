@@ -38,10 +38,12 @@
 #toggle div {
   height: 3px;
   margin-bottom: 6px;
+  margin-right: 50px;
   transition: all 0.3s linear;
   background-color: $blue;
   width:17px;
   opacity: 0.8;
+  position:relative;
 }
 
 #toggle:hover {
