@@ -20,18 +20,17 @@
   }
 }
 
-@media(max-width: 815px) {
-  #skills {
-    padding: 40px 15px;
-  }
-}
-
 @media (max-width: 1028px) {
   #skills {
     padding: 40px;
   }
 }
 
+@media(max-width: 815px) {
+  #skills {
+    padding: 40px 20px;
+  }
+}
 
 .progress-item {
   .col-10, .col-2 {

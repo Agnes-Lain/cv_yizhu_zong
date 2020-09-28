@@ -25,14 +25,14 @@
   }
 }
 
-@media(max-width: 815px) {
-  #education {
-    padding: 40px 15px;
-  }
-}
-
 @media (max-width: 1028px) {
     #education {
     padding: 40px;
+  }
+}
+
+@media(max-width: 815px) {
+  #education {
+    padding: 40px 20px;
   }
 }
