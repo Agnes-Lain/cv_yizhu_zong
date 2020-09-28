@@ -1,25 +1,40 @@
 #experiences {
   padding: 80px;
   align-items: center;
-  background-color: $blue;
-  color:$light-beige;
+  background-color: $light-grey;
+  color:$brown;
   h2 {
-    color:$light-beige;
+    color:$blue;
+  }
+  h6 {
+    color:$blue;
+    margin-bottom: 0px !important;
   }
   strong {
     font-weight: 600;
   }
-}
-
-@media(max-width: 815px) {
-  #experiences {
-    padding: 40px 15px;
+  p {
+    margin-bottom: 0px !important;
   }
 }
 
 @media (max-width: 1028px) {
   #experiences {
     padding: 40px;
+  }
+}
+
+@media(max-width: 815px) {
+  #experiences {
+    padding: 40px 20px;
+  }
+  .company-exp {
+    p {
+      font-size: 14px !important;
+    }
+    h6 {
+      font-size: 14px !important;
+    }
   }
 }
 
@@ -72,4 +87,44 @@ details[open] {
     font-weight: 200;
     padding-right: 15px;
   }
+}
+
+// style 2 with time line and company images
+.company-exp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .leftside {
+    width: 100%;
+    height:auto;
+    border-right: 1px solid $red;
+  }
+  .exp-description-right {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .rightside {
+    width: 100%;
+    height:auto;
+  }
+  .exp-description-left {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid $red;
+    text-align: right;
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+.exp-space {
+  height: 4rem;
+  width:50%;
+  border-right: 1px solid $red;
 }

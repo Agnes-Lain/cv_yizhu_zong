@@ -6,3 +6,16 @@
     color:$light-beige;
   }
 }
+
+@media(max-width: 815px) {
+  #contacts {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 1028px) {
+  #contacts {
+    padding: 40px;
+  }
+}
+
