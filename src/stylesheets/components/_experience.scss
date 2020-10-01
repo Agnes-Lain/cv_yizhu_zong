@@ -38,61 +38,13 @@
   }
 }
 
-.resume {
-  summary {
-    background-color: $light-beige;
-    padding:5px 10px;
-    width: 100%;
-    border-radius: 6px;
-    color:$blue;
-    font-size: 16px;
-    font-family: $title;
-  }
-  img {
-    height:1.5rem;
-  }
-  a {
-    text-decoration: none;
-    color:$soil;
-    font-weight: 700;
-  }
-  .company-info {
-    color:$soil;
-    font-weight: 700;
-  }
-}
-
-// summary:before {
-//   color:$brown;
-// }
-
-// summary:after {
-//   color:$blue;
-// }
-
-details[open] {
-  background-color: white;
-  color: $blue;
-  border-radius: 3px;
-  // padding: 0px 10px 15px 10px;
-  text-align: justify;
-  h6, p, h4{
-    padding: 0px 15px;
-  }
-  h4, li {
-    color:$brown;
-  }
-  li {
-    font-family: $text;
-    font-weight: 200;
-    padding-right: 15px;
-  }
-}
-
+// -----------------------------------------------
 // style 2 with time line and company images
 .company-exp {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
   .leftside {
     width: 100%;
     height:auto;
@@ -104,6 +56,13 @@ details[open] {
     justify-content: space-between;
     p {
       font-size: 20px;
+    }
+  }
+
+  &:hover {
+    .exp-title {
+      font-style:bold;
+      transform: scale(1.1);
     }
   }
 
@@ -124,7 +83,87 @@ details[open] {
 }
 
 .exp-space {
-  height: 4rem;
+  height: 5rem;
   width:50%;
   border-right: 1px solid $red;
+}
+
+// -----------------------------------------------------------------
+// Following is the modal box for experience details
+.exp-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+// .modal-content {
+//   background-color: #fefefe;
+//   margin: 15% auto; /* 15% from the top and centered */
+//   padding: 20px;
+//   border: 1px solid #888;
+//   width: 80%; /* Could be more or less, depending on screen size */
+// }
+
+/* Modal Content */
+.exp-modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 45px 0px 20px 0px;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.5s
+}
+
+/* The Close Button */
+.exp-close {
+  color: $light-beige;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.exp-close:hover,
+.exp-close:focus {
+  color: $dark-brown;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.exp-modal-header {
+  padding: 8px 16px;
+  background-color: $blue;
+  color: $light-beige;
+  align-items:center;
+  h4 {
+    margin: 0px;
+  }
+}
+
+/* Modal Body */
+.exp-modal-body {
+  padding: 2px 16px;
+  img {
+    height: 2rem;
+  }
+  p {
+    color: $blue;
+  }
+}
+
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
 }
