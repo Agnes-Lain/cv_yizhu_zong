@@ -1,9 +1,15 @@
 #contacts {
   padding: 80px;
-  height:500px;
   background-color: $blue;
   h2 {
     color:$light-beige;
+  }
+}
+
+
+@media (max-width: 1028px) {
+  #contacts {
+    padding: 40px;
   }
 }
 
@@ -13,9 +19,11 @@
   }
 }
 
-@media (max-width: 1028px) {
-  #contacts {
-    padding: 40px;
-  }
-}
+// #inlineFrameExample {
+//     border: 1px solid black;
+//     width: 100%;
+// }
 
+// .output {
+//     background: #eee;
+// }

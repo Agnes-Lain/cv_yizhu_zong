@@ -52,27 +52,30 @@
   padding-left:0px !important;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-tabs .nav-link.active, .nav-tabs .show > .nav-link {
   background-color: $blue;
   color:$light-beige;
-  border-bottom: 3px solid $light-beige;
+  display:block;
 }
+
 
 .tab-content>.tab-pane {
-  .fade:not(.show) {
-    display: none !important;
-    opacity: 0;
-  }
+    display: none;
 }
 
-.nav-pills {
-  a {
-    color:$light-beige;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 20px;
-  }
+.fade:not(.show) {
+  opacity: 0;
+  display: none !important;
 }
+
+// .nav-pills {
+//   a {
+//     color:$light-beige;
+//     padding-left: 0px;
+//     padding-right: 0px;
+//     margin-right: 20px;
+//   }
+// }
 
 .skill-tab {
   padding: 6px 15px 6px 15px;
