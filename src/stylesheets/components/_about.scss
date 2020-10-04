@@ -80,7 +80,7 @@
 
 
 .about {
-  padding: 80px 80px 40px 80px;
+  padding: 80px;
   align-items: center;
   background-color: $light-grey;
   color: $brown;
@@ -96,6 +96,9 @@
     text-align: justify;
     margin-bottom: 0px;
     padding-bottom: 40px;
+  }
+  strong {
+    font-weight:700;
   }
 }
 
