@@ -6,6 +6,17 @@
   }
 }
 
+.profile-follow-light a {
+  font-size: 20px;
+  color: $light-beige;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all .2s ease-in-out;
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
 
 @media (max-width: 1028px) {
   #contacts {
@@ -16,7 +27,14 @@
 @media(max-width: 815px) {
   #contacts {
     padding: 40px 20px;
+    .profile-follow-light a {
+      font-size: 12px;
+    }
   }
+}
+
+.formFooter {
+  display: none !important;
 }
 
 // #inlineFrameExample {

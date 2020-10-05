@@ -16,6 +16,11 @@
   p {
     margin-bottom: 0px !important;
   }
+  // .exp-btn {
+  //   border: 1px solid $brown;
+  //   padding:5px 10px;
+  //   border-radius: 5px;
+  // }
 }
 
 @media (max-width: 1028px) {
@@ -55,7 +60,7 @@
     flex-direction: column;
     justify-content: space-between;
     p {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 
