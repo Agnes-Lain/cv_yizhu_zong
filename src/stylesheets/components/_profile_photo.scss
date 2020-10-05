@@ -19,17 +19,6 @@
   }
 }
 
-.profile-follow-light a {
-  font-size: 20px;
-  color: $light-beige;
-  text-decoration: none;
-  opacity: 0.8;
-  transition: all .2s ease-in-out;
-  &:hover {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-}
 
 // @media(max-width: 992px) {
 //   .profile {
@@ -37,7 +26,7 @@
 //     }
 // }
 
-@media(max-width: 800px) {
+@media(max-width: 815px) {
   .profile {
     height:50vh;
     .profile-photo {
