@@ -1,6 +1,5 @@
 #projects {
   padding: 80px;
-  height:250px;
   background-color: $blue;
   h2 {
     color:$light-beige;
@@ -17,74 +16,88 @@
   #projects {
     padding: 40px 20px;
   }
+  #project1-info, #project2-info, #project3-info {
+    width:100% !important;
+    display:block !important;
+    position:relative !important;
+  }
 }
 
 #project1 {
   position:relative;
+  box-shadow: 0px 0px 10px $light-grey;
+  border:5px solid $light-beige;
+  transition: all .5s ease-in-out;
   .project-img {
+    background: no-repeat;
     background-position: top;
     background-size: cover;
-    width:70%;
-    height:350px;
-    // z-index: 200;
+    width:100%;
+    height:250px;
     &:hover {
       opacity: 0.8;
     }
   }
-  .project-info {
-    height: 350px;
-    width: 30%;
-    // z-index: -1;
+  #project1-info {
+    display:none;
+    height: 250px;
+    width: 50%;
     position: absolute;
     top: 0px;
     right: 0px;
     padding:20px;
     background-color: $ocean;
     color: $light-grey;
+    transition: all .5s ease-in-out;
   }
 
 }
 #project2 {
   position:relative;
+  box-shadow: 0px 0px 10px $light-grey;
+  border:5px solid $light-beige;
+  transition: all .5s ease-in-out;
   .project2-img {
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    width:70%;
-    height:300px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    width:100%;
+    height:250px;
     &:hover {
       opacity: 0.8;
     }
-    // z-index: 200;
   }
-  .project2-info {
-    height: 300px;
-    width: 30%;
-    // z-index: -1;
-
+  #project2-info {
+    display:none;
+    height: 250px;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     padding:20px;
     background-color: $red;
     color: $light-grey;
+    transition: all .5s ease-in-out;
   }
 }
 
 #project3 {
   position:relative;
+  box-shadow: 0px 0px 10px $light-grey;
+  border:5px solid $light-beige;
+  transition: all .5s ease-in-out;
   .project3-img {
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    width:70%;
-    height:295px;
-    // z-index: 200;
+    width:100%;
+    height:250px;
     &:hover {
       opacity: 0.8;
     }
   }
-  .project3-info {
-    height: 295px;
-    width: 30%;
+  #project3-info {
+    display:none;
+    height: 250px;
+    width: 50%;
     // z-index: -1;
     position: absolute;
     top: 0px;
@@ -92,6 +105,7 @@
     padding:20px;
     background-color: $kaki;
     color: $light-grey;
+    transition: all .5s ease-in-out;
   }
 }
 
@@ -100,7 +114,7 @@
 //   grid-template-columns: 1fr 2fr;
 // }
 
-.project-footer {
-  height: 80px;
-  background-color: $blue;
-}
+// .project-footer {
+//   height: 80px;
+//   background-color: $blue;
+// }
