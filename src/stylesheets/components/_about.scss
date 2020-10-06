@@ -6,13 +6,13 @@
   align-items: center;
   height: 95vh;
   .intro-text {
-    padding: 130px 80px;
+    padding: 100px 80px;
   }
   h1 {
     font-weight: 200;
     color: $light-beige;
     font-size: 80px;
-    margin-bottom:80px;
+    margin-bottom:50px;
   };
   p {
     color: $light-beige;
@@ -22,7 +22,17 @@
   i {
     font-size: 22px;
   }
-
+  img {
+    width:30px;
+  }
+  a {
+    text-decoration: none;
+    color:$light-beige;
+    &:hover {
+      color:$green;
+      font-weight: bold;
+    }
+  }
 }
 
 .title {
@@ -99,6 +109,15 @@
   }
   strong {
     font-weight:700;
+  }
+
+  a {
+    color: $blue;
+    &:hover {
+      font-weight: bold;
+      text-decoration: none;
+      color:$red;
+    }
   }
 }
 
