@@ -18,6 +18,13 @@
   h5 {
     color: $light-beige;
   }
+  a {
+    text-decoration: none;
+    color: $dark-beige;
+    &:hover {
+      font-weight: 700;
+    }
+  }
 }
 
 @media (max-width: 1028px) {
