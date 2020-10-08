@@ -26,7 +26,7 @@
   }
 }
 
-@media(max-width: 815px) {
+@media(max-width: 546px) {
   #skills {
     padding: 40px 20px;
     .nav-link h5 {
@@ -82,6 +82,8 @@
 
 .skill-tab {
   padding: 6px 15px 6px 15px;
+  margin-bottom: 7px;
+  margin-right: 7px;
   background-color: $light-beige;
   color:$blue;
   border-radius: 5rem;
