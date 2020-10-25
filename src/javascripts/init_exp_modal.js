@@ -21,11 +21,11 @@ const initExpModal = () => {
       modal.style.display = "none";
     };
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = (event) => {
+    window.addEventListener('click', (event) => {
       if (event.target === modal) {
         modal.style.display = "none";
       }
-    };
+    });
   });
 };
 

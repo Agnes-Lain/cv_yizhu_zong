@@ -5,6 +5,12 @@ const initMenu = () => {
     if (slideMenu.classList.contains('menu-active')) {
       slideMenu.classList.remove('menu-active');
       menueButton.classList.remove('on');
+      // window.addEventListener("click", (e) => {
+      //   if (e.target !== slideMenu) {
+      //     slideMenu.classList.remove('menu-active');
+      //     menueButton.classList.remove('on');
+      //   }
+      // });
     } else {
       slideMenu.classList.add('menu-active');
       menueButton.classList.add('on');

@@ -15,6 +15,33 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&family=Maven+Pro:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
     <!-- Hotjar Tracking Code for https://agnes-lain.github.io/cv_yizhu_zong/ -->
+    <style media="screen">
+      .loader {
+        position:fixed;
+        z-index: 999;
+        background-color: #FAEDDF;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .loader > img {
+        width: 300px;
+      }
+      .loader.hidden{
+        animation: fadeOut 1s;
+        animation-fill-mode: forwards;
+      }
+      @keyframes fadeOut {
+        100% {
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    </style>
     <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -25,15 +52,28 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    <!-- end of hotjar -->
   </head>
+
   <body>
+    <!-- adding a layer to cover the web before the css loaded, so only show the page after loading -->
+    <div class="loader">
+      <img src="./src/media/giphy-loading-acard.gif" alt="Loading...">
+    </div>
+      <script type="text/javascript">
+        window.addEventListener("load", ()=>{
+          const loader = document.querySelector(".loader")
+          loader.classList.add("hidden")
+        })
+      </script>
+    <!-- end of this loading cover layer -->
+
     <!-- navbar wagon style with dropdown -->
     <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <a class="navbar-brand" href="https://agnes-lain.github.io/cv_yizhu_zong/">
+      <a class="navbar-brand" href="/">
         <i class="fas fa-terminal"></i> YIZHU ZONG
       </a>
-<!--       <ul class="navbar-nav mr-3">
-        <li class="nav-item "> -->
+      <!-- this is the button for open de dropdown menu -->
       <div class="toggle-holder">
         <div id="toggle" class="mr-3">
           <div></div>
@@ -41,12 +81,11 @@
           <div></div>
         </div>
       </div>
-<!--         </li>
-      </ul> -->
+      <!-- end of the dropdown button -->
     </div>
     <!-- navbar end here -->
 
-    <!-- hiding slide nav list  -->
+    <!-- hided slide nav list  -->
     <div class="slide-menu">
       <ul>
         <li><a href="#home" class="">Home</a></li>
@@ -55,7 +94,7 @@
         <li class="mt-3"><a href="#education" class="">Education</a></li>
         <li class="mt-3"><a href="#skills" class="">Skills</a></li>
         <li class="mt-3"><a href="#experiences" class="">Experiences</a></li>
-        <li class="mt-3"><a href="#contact" class="">Contact</a></li>
+        <li class="mt-3"><a href="#contacts" class="">Contact</a></li>
       </ul>
     </div>
     <!-- end of hiding slide -->
@@ -79,11 +118,14 @@
         <!-- main title section-->
         <div class="title ">
 
-          <!-- home and about -->
+          <!-- intro and about -->
           <div class="intro" id="home">
             <div class="intro-text">
               <h1 class=""> Hello, I'm<br> Yizhu Zong </h1>
               <p class="introduction">Freshly certificated as junior <strong> Full-stack web developer </strong> from <a href="https://www.lewagon.com/">Le Wagon <img src="https://dwj199mwkel52.cloudfront.net/assets/lewagon-logo-square-b6124eb974be375884558e4464efce48a9b5664f18422768156364363ecdd1fc.png" loading="lazy" alt="wagon" width = "30px"></a> batch #441, I am Looking forward to work with interesting people, to build amazing products together, and to keep learning and evolving for a lifetime! </p>
+            </div>
+            <div class="chevron-down">
+              <i class="fas fa-chevron-down"></i>
             </div>
           </div>
 
@@ -94,12 +136,12 @@
               After 15 years of professional experience in international business development field as a buyer, I wanted to make a change of my career, to learn new skills and to follow my passion of internet technologies. That's why I began to learn coding, and decided to join <a href="https://www.lewagon.com/">le Wagon</a> bootcamp this summer to become a <strong>Full-stack developer</strong>. Start over from zero is not an easy decision, but a new adventure is always very exciting to me, and learning new things keeps my mind young and sharp!
             </p>
             <p>
-              I am curious, passionate, empathic, pragmatic and autonomous, a fast learner with full energy, self-motivated and performance-driven type! And I believe my <strong>mixed experiences</strong> from <strong>different industries</strong>, and my <strong>multicultural background</strong> can also bring you extra precious values.
+              I am curious, passionate, empathic, pragmatic and autonomous, a fast learner with full energy, self-motivated and performance-driven type! And I believe my <strong>diverse professional experiences</strong> from <strong>different industries</strong>, and my <strong>multicultural background</strong> can also bring you extra precious values.
             </p>
             <p>I also love: ✈️ 🎒 🌏 🍜 🍻 🍕 🍱 🎶 🎧 🎸 🧘🏻‍♀️🚂 🏖 🎮 🚲 🕹 🍷 🏓 🎤 🏔 🎿 🐳</p>
 
           </div>
-          <!-- end of home and about  -->
+          <!-- end of intro and about  -->
 
           <!-- begin of projects -->
           <div id="projects">
@@ -107,27 +149,30 @@
             <div class="space-line-light"></div>
 
             <div id="project1" class="mt-5">
-              <a href="http://www.commithood.com" target="_blank"><div class="project-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/commit_hood_full_voxana.png')"></div></a>
-              <div id="project1-info">
-                <p>Make a commitment to improve your neighborhood! </p>
-                <p>Commit'hood is a platform I coded with 3 teamates as the final project during Le wagon bootcamp. It allows you to find all the associative events close to you 🌈.</p>
-              </div>
+              <a href="http://www.commithood.com" target="_blank"><div class="project-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/commit_hood_full_voxana.png')"></div>
+                <div id="project1-info">
+                  <p>Make a commitment to improve your neighborhood! </p>
+                  <p>Commit'hood is a platform I coded with 3 teamates as the final project during Le wagon bootcamp. It allows you to find all the associative events close to you 🌈.</p>
+                </div>
+              </a>
             </div>
 
             <div id="project2" class="mt-5">
-              <a href="https://cocktail-lovers-2046.herokuapp.com" target="_blank"><div class="project2-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/cocktail_2046_fswrva.png')"></div></a>
-              <div id="project2-info">
-                <p>Creat your own cocktail collection and recipes!</p>
-                <p>The first Rails application I've built within 2 days. Not totally functional, but it's a good beginning ✌️.</p>
-              </div>
+              <a href="https://cocktail-lovers-2046.herokuapp.com" target="_blank"><div class="project2-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/cocktail_2046_fswrva.png')"></div>
+                <div id="project2-info">
+                  <p>Creat your own cocktail collection and recipes!</p>
+                  <p>The first Rails application I've built within 2 days. Not totally functional, but it's a good beginning ✌️.</p>
+                </div>
+              </a>
             </div>
 
             <div id="project3" class="mt-5">
-              <a href="https://bikery.herokuapp.com" target="_blank"><div class="project3-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/bikery_full_hxwbcw.png')"></div></a>
-              <div id="project3-info">
-                <p>F*ck the cars and rent your bike today! </p>
-                <p>Bikery was an Airbnb market place clone project I coded with 3 teamates, and it's the first project we learnt to code with others as co-op ;) 🙌 </p>
-              </div>
+              <a href="https://bikery.herokuapp.com" target="_blank"><div class="project3-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/bikery_full_hxwbcw.png')"></div>
+                <div id="project3-info">
+                  <p>F*ck the cars and rent your bike today! </p>
+                  <p>Bikery was an Airbnb market place clone project I coded with 3 teamates, and it's the first project we learnt to code with others as co-op ;) 🙌 </p>
+                </div>
+              </a>
             </div>
 
           </div>
@@ -140,19 +185,19 @@
             <div class="space-line"></div>
             <div class="year pt-5"><h6 >2020</h6></div>
             <div class="edu-info">
-              <h4 class="school">Le Wagon, #batch 441, France - <img src="https://dwj199mwkel52.cloudfront.net/assets/lewagon-logo-square-b6124eb974be375884558e4464efce48a9b5664f18422768156364363ecdd1fc.png" alt="wagon"></h4>
+              <h4 class="school">Le Wagon, #batch 441, France - <img src="https://dwj199mwkel52.cloudfront.net/assets/lewagon-logo-square-b6124eb974be375884558e4464efce48a9b5664f18422768156364363ecdd1fc.png" loading="lazy" width = "30px" alt="wagon"></h4>
               <p class="degree">Fullstack Web developer</p>
             </div>
 
             <div class="year pt-3"><h6>2009</h6></div>
             <div class="edu-info">
-              <h4 class="school">IGR-IAE de Rennes, France - <img src="https://www.igr-inside.com/wp-content/uploads/2014/01/Logo_IGR.png" alt="igr-iae"></h4>
+              <h4 class="school">IGR-IAE de Rennes, France - <img src="https://www.igr-inside.com/wp-content/uploads/2014/01/Logo_IGR.png" loading="lazy" width = "30px" alt="igr-iae"></h4>
               <p class="degree">Master’s Degree of International Business Management & Development</p>
             </div>
 
             <div class="year pt-3"><h6>2003</h6></div>
             <div class="edu-info">
-              <h4 class="school">Harbin University of Science & Technology, China - <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/c/cd/Harbin_University_of_Science_and_Technology_logo.png/200px-Harbin_University_of_Science_and_Technology_logo.png" alt="Harbin University"></h4>
+              <h4 class="school">Harbin University of Science & Technology, China - <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/c/cd/Harbin_University_of_Science_and_Technology_logo.png/200px-Harbin_University_of_Science_and_Technology_logo.png" loading="lazy" width = "30px" alt="Harbin University"></h4>
               <p class="degree">Bechelor’s Degree of International Economy & Trading</p>
             </div>
           </div>
@@ -270,7 +315,7 @@
               <div class="exp-space"></div>
 
               <div class="company-exp" data-toggle="tooltip" data-html="true" title="Click for details">
-                <img class="leftside" src="https://d23zpyj32c5wn3.cloudfront.net/images/masonry_bricks/pictures/56862/big/DSC_9397.jpg?1567756925" alt="Motul">
+                <img class="leftside" src="https://d23zpyj32c5wn3.cloudfront.net/images/masonry_bricks/pictures/56862/big/DSC_9397.jpg?1567756925" loading="lazy" alt="Motul">
                 <div class="exp-description-right">
                   <div class= "end pl-2"><h6>09 - 2019 </h6></div>
                   <div class="ml-4 exp-title exp-btn"><p>Purchasing & Product Manager</p></div>
@@ -285,7 +330,7 @@
                   <div class="pr-4 exp-title"><p>Experiment Purchasing Managment</p></div>
                   <div class= "begin pr-2"><h6>06 - 2014</h6></div>
                 </div>
-                <img class="rightside" src="https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Criteo.jpg" alt="Criteo">
+                <img class="rightside" src="https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Criteo.jpg" loading="lazy" alt="Criteo">
               </div>
               <div class="exp-space"></div>
 
@@ -310,7 +355,7 @@
               <div class="exp-space"></div>
 
               <div class="company-exp" data-toggle="tooltip" data-html="true" title="Click for details">
-                <img class="leftside" src="https://ag-cdn-production.azureedge.net/vendeurs/508/images_communication/logo.gif" alt="Eurapac">
+                <img class="leftside" src="https://ag-cdn-production.azureedge.net/vendeurs/508/images_communication/logo.gif" loading="lazy" alt="Eurapac">
                 <div class="exp-description-right">
                   <div class= "end pl-2"><h6>06 - 2008 </h6></div>
                   <div class="pl-4 exp-title"><p>Sourcing & Purchasing Manager</p></div>
@@ -325,12 +370,12 @@
                   <div class="pr-4 exp-title"><p>Project Coordinator</p></div>
                   <div class= "begin pr-2"><h6>07 - 2004</h6></div>
                 </div>
-                <img class="rightside" src="https://mk0runwaygirl0t0gjwt.kinstacdn.com/wp-content/uploads/2014/09/1D0B2276.jpg" alt="Wessco">
+                <img class="rightside" src="https://mk0runwaygirl0t0gjwt.kinstacdn.com/wp-content/uploads/2014/09/1D0B2276.jpg" loading="lazy" alt="Wessco">
               </div>
               <div class="exp-space"></div>
 
               <div class="company-exp" data-toggle="tooltip" data-html="true" title="Click for details">
-                <img class="leftside" src="https://s.yimg.com/bj/c53f/c53f90b831749dffd410afb20fe7b5b5.jpg" alt="johnsonfitness">
+                <img class="leftside" src="https://s.yimg.com/bj/c53f/c53f90b831749dffd410afb20fe7b5b5.jpg" loading="lazy" alt="johnsonfitness">
                 <div class="exp-description-right">
                   <div class= "end pl-2"><h6>06 - 2004 </h6></div>
                   <div class="pl-4 exp-title"><p>Sales Representative</p></div>
@@ -407,7 +452,7 @@ Also dealing with the SAP operational transactions to support internal users.
                   </div>
                   <div class="exp-modal-body">
                     <h6 class="period py-3">France: Jan. 2011 - June 2014</h6>
-                    <p class="pb-3"><a href="https://www.yves-salomon.com"><img src="https://i1.wp.com/luxe.supdepub.com/wp-content/uploads/2015/12/1378480248-57840300.png?fit=420%2C125" alt="Yves Salomen Fourreur">  Lead brand of Fur fashion in Europe</a></p>
+                    <p class="pb-3"><a href="https://www.yves-salomon.com"><img src="https://lordluxurystore.com/img/cms/YvesSalomonArmy.png" alt="Yves Salomen Fourreur">  Lead brand of Fur fashion in Europe</a></p>
                     <p><i class="fas fa-terminal"></i> Management of purchasing & production with <strong>35 suppliers</strong>, covering more than <strong>8000 different references</strong> of
 textile products, with yearly spent around <strong>7M euros</strong>;
                     </p>
@@ -499,7 +544,7 @@ machinery department, plus all kinds of home-electric-appliance, and other house
                   </div>
                   <div class="exp-modal-body">
                     <h6 class="period py-3">China: July 2003 - June 2004</h6>
-                    <p class="pb-3"><a href="https://www.johnsonfitness.com"><img src="https://www.johnsonfitness.com/Content/images/Desktop/jfw-logo-c.svg" alt="Jonhson"> Currently the 4th largest manufacturer of commercial and home fitness equipment in the world.</a></p>
+                    <p class="pb-3"><a href="https://www.johnsonfitness.com"><img src="https://www.johnsonfitness.com/Content/images/Desktop/jfw-logo-c.svg" loading="lazy" alt="Jonhson"> Currently the 4th largest manufacturer of commercial and home fitness equipment in the world.</a></p>
                     <p><i class="fas fa-terminal"></i> Deal with the European subsidiaries/customer orders through the ERP system, and arrange the production and shipment;</p>
                     <br>
                     <p><i class="fas fa-terminal"></i> Customer service, including: after sales service, dealing with customer complaints; customers visiting agenda, technical change updating, etc;</p>

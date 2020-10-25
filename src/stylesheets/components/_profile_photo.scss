@@ -1,5 +1,8 @@
 .profile {
-  height:95vh;
+  height:600px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
 }
 .profile-photo {
   background-position: center;
