@@ -18,15 +18,9 @@
   }
 }
 
-@media (max-width: 1028px) {
-  #contacts {
-    padding: 40px;
-  }
-}
-
 @media(max-width: 546px) {
   #contacts {
-    padding: 40px 20px;
+    padding: 80px 20px;
     .profile-follow-light a {
       font-size: 12px;
     }
