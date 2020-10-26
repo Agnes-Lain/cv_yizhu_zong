@@ -16,13 +16,13 @@ const initMenu = () => {
       menuButton.classList.remove('on');
     }
   });
-  // menueButton.addEventListener('click', (event) => {
+  // menuButton.addEventListener('click', (event) => {
   //   if (slideMenu.classList.contains('menu-active')) {
   //     slideMenu.classList.remove('menu-active');
-  //     menueButton.classList.remove('on');
+  //     menuButton.classList.remove('on');
   //   } else {
   //     slideMenu.classList.add('menu-active');
-  //     menueButton.classList.add('on');
+  //     menuButton.classList.add('on');
   //   }
   // });
 };
