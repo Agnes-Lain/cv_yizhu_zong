@@ -1,5 +1,5 @@
 const initProjectInfo = () => {
-  const array = [1, 2, 3];
+  const array = [0, 1, 2, 3];
   array.forEach((i) => {
     const project = document.getElementById(`project${i}`);
     const projectInfo = document.getElementById(`project${i}-info`);
