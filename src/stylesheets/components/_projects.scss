@@ -19,113 +19,78 @@
   #projects {
     padding: 80px 20px;
   }
+  .project-container{
+    width:100%;
+    height:65vh !important;
+  }
   #project1-info, #project2-info, #project3-info, #project0-info {
     width:100% !important;
+    height:60% !important;
     visibility: visible !important;
     opacity: 1 !important;
     position:relative !important;
   }
+  .project-img {
+    height: 40% !important;
+  }
 }
 
-#project0 {
+.project-container{
   position:relative;
   box-shadow: 0px 0px 5px $light-grey;
   border:5px solid $light-beige;
-  .project0-img {
-    background: no-repeat;
+  width:100%;
+  height:42vh;
+  .project-img {
     background-position: top;
     background-size: cover;
     width:100%;
-    height:250px;
+    height:100%;
   }
-  #project0-info {
+  #project0-info, #project1-info, #project2-info, #project3-info {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.3s, opacity 0.3s linear;
-    height: 250px;
+    height: 100%;
     width: 50%;
+    padding:20px;
+    color: $light-grey;
+  }
+}
+
+#project0 {
+  #project0-info {
     position: absolute;
     top: 0px;
     left: 0px;
-    padding:20px;
     background-color: $dark;
-    color: $light-grey;
   }
 }
 
 #project1 {
-  position:relative;
-  box-shadow: 0px 0px 5px $light-grey;
-  border:5px solid $light-beige;
-  .project-img {
-    background: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width:100%;
-    height:250px;
-  }
   #project1-info {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.3s, opacity 0.3s linear;
-    height: 250px;
-    width: 50%;
     position: absolute;
     top: 0px;
     right: 0px;
-    padding:20px;
-    background-color: $ocean;
-    color: $light-grey;
+    background-color: $green;
   }
 
 }
 #project2 {
-  position:relative;
-  box-shadow: 0px 0px 5px $light-grey;
-  border:5px solid $light-beige;
-  .project2-img {
-    background-position: center;
-    background-size: cover;
-    width:100%;
-    height:250px;
-  }
   #project2-info {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.3s, opacity 0.3s linear;
-    height: 250px;
-    width: 50%;
     position: absolute;
     top: 0px;
     left: 0px;
-    padding:20px;
     background-color: $red;
-    color: $light-grey;
   }
 }
 
 #project3 {
-  position:relative;
-  box-shadow: 0px 0px 5px $light-grey;
-  border:5px solid $light-beige;
-  .project3-img {
-    background-position: center;
-    background-size: cover;
-    width:100%;
-    height:250px;
-  }
   #project3-info {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.3s, opacity 0.3s linear;
-    height: 250px;
-    width: 50%;
     position: absolute;
     top: 0px;
     right: 0px;
-    padding:20px;
     background-color: $kaki;
-    color: $light-grey;
   }
 }
 
