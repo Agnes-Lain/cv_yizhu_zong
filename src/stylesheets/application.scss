@@ -14,7 +14,7 @@
 
 h1{
   font-family: $title;
-  font-size: 40px;
+  font-size: 4vw;
   font-weight:700;
   font-style: bold;
 }
@@ -29,18 +29,27 @@ h2, h3, h4 {
 }
 
 h2{
-  font-size: 40px;
+  font-size: 3vw;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 2vw;
 }
 
 p {
   font-family: $text;
   font-weight: 200;
+  font-size: 1.2vw;
 }
 
+@media(max-width: 546px) {
+  p {
+    font-size: 4vw !important;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+}
 
 body {
   background-color: $light-beige;
