@@ -4,7 +4,8 @@
   background-size: cover;
   background-color: $blue;
   align-items: center;
-  height: 700px;
+  height: 85vh;
+  position: relative;
   .intro-text {
     padding: 100px 80px;
   }
@@ -29,13 +30,13 @@
     text-decoration: none;
     color:$light-beige;
     &:hover {
-      color:$green;
+      color:$red;
       font-weight: bold;
     }
   }
   .chevron-down {
     i {
-      margin-left: 25%;
+      margin-left: 45%;
       color: $light-beige;
       opacity: 0.7;
       font-size: 60px;

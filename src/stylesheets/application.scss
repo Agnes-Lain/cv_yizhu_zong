@@ -47,7 +47,15 @@ body {
   overflow-x: hidden;
 
   padding-top: 70px;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
+
+
 
 // html {
 //   overflow-x: hidden;

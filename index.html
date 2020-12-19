@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ7X5ECTJ8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NJ7X5ECTJ8');
+    </script>
+
+    <!-- meta general -->
     <meta charset="UTF-8">
     <title>Yizhu ZONG : Full-stack developer with Ruby on Rails</title>
-    <meta name="description" content="A former buyer, now coming back as a Full-stack web developer equiped with Ruby on rails.">
-    <meta property="og:title" content="Yizhu ZONG : Full-stack developer with Ruby on Rails">
+    <meta name="description" content="Full-stack web developer ❤️ Ruby on rails.">
+    <meta property="og:title" content="Yizhu ZONG : Full-stack developer love Ruby on Rails">
     <meta property="og:image" content="https://res.cloudinary.com/diczuc7me/image/upload/v1602189747/yizhu_web_du71zb.png">
-    <meta property="og:description" content="A former buyer, now coming back as a Full-stack web developer equiped with Ruby on rails.">
+    <meta property="og:description" content="A multipotencialite, now coming back as a Full-stack web developer equiped with Ruby on rails.">
     <meta property="og:site_name" content="Yizhu ZONG"/>
     <!-- <link rel="stylesheet" href="src/application.scss"> -->
     <link rel="shortcut icon" href="#"/>
@@ -14,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&family=Maven+Pro:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
-    <!-- Hotjar Tracking Code for https://agnes-lain.github.io/cv_yizhu_zong/ -->
+    <!-- this is the stylesheet for covering the preloading moment -->
     <style media="screen">
       .loader {
         position:fixed;
@@ -42,6 +53,7 @@
         }
       }
     </style>
+    <!-- Hotjar Tracking Code for https://agnes-lain.github.io/cv_yizhu_zong/ -->
     <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -99,9 +111,11 @@
     </div>
     <!-- end of hiding slide -->
 
+    <!-- the main frame of the profile session with container -->
     <div class="content-container">
       <div class="content-row">
-        <!-- profile photo -->
+
+        <!-- profile photo section with contact icons -->
         <div class=" profile" >
           <div class="profile-photo" style="background-image: linear-gradient(rgba(246, 219, 188, 0.3),rgba(246, 219, 188, 0.3)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1600302866/cv%20element/Yizhu_Zong_2_z0haby.jpg')">
 
@@ -122,7 +136,7 @@
           <div class="intro" id="home">
             <div class="intro-text">
               <h1 class=""> Hello, I'm<br> Yizhu Zong </h1>
-              <p class="introduction">Freshly certificated as junior <strong> Full-stack web developer </strong> from <a href="https://www.lewagon.com/">Le Wagon <img src="https://dwj199mwkel52.cloudfront.net/assets/lewagon-logo-square-b6124eb974be375884558e4464efce48a9b5664f18422768156364363ecdd1fc.png" loading="lazy" alt="wagon" width = "30px"></a> batch #441, I am Looking forward to working with interesting people, building amazing products together, and keeping learning and evolving for a lifetime! </p>
+              <p class="introduction">Freshly certificated as junior <strong> Full-stack web developer </strong> from <img src="./src/media/lewagon.png" alt="" width = "30px" loading="lazy"><a href="https://www.lewagon.com/" > Le Wagon</a> batch #441, I am Looking forward to working with interesting people, building amazing products together, and keeping learning and evolving for a lifetime! </p>
             </div>
             <div class="chevron-down">
               <i class="fas fa-chevron-down"></i>
@@ -133,7 +147,7 @@
             <h2 >About</h2>
             <div class="space-line"></div>
             <p class="mt-5">
-              After 15 years of professional experience in international business development field as a buyer, I wanted to make a change of my career, to learn new skills and to follow my passion of internet technologies. That's why I began to learn coding, and decided to join <a href="https://www.lewagon.com/">le Wagon</a> bootcamp this summer to become a <strong>Full-stack developer</strong>. Start over from zero is not an easy decision, but a new adventure is always very exciting to me, and learning new things keeps my mind young and sharp!
+              After 15 years of professional experience in international business development field as a buyer, I wanted to make a change of my career, to learn new skills and to follow my passion of internet technologies. That's why I began to learn coding, and decided to join <img src="./src/media/lewagon.png" alt="" width = "30px" loading="lazy"> <a href="https://www.lewagon.com/">le Wagon</a> bootcamp this summer to become a <strong>Full-stack developer</strong>. Start over from zero is not an easy decision, but a new adventure is always very exciting to me, and learning new things keeps my mind young and sharp!
             </p>
             <p>
               I am curious, passionate, empathic, pragmatic and autonomous, a fast learner with full energy, self-motivated and performance-driven type! And I believe my <strong>diverse professional experiences</strong> from <strong>different industries</strong>, and my <strong>multicultural background</strong> can also bring you extra precious values.
@@ -148,8 +162,9 @@
             <h2>Projects</h2>
             <div class="space-line-light"></div>
 
-            <div id="project0" class="mt-5">
-              <a href="https://gameclan.herokuapp.com/" target="_blank"><div class="project0-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1607588925/gamebook_home_c2oxcg.png')"></div>
+            <div id="project0" class="project-container mt-5">
+              <a href="https://gameclan.herokuapp.com/" target="_blank">
+                <div class="project-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1607588925/gamebook_home_c2oxcg.png')"></div>
                 <div id="project0-info">
                   <p>Build your own Gamebook to share and to play with your friends! </p>
                   <p> A Rails based web-app, with Stimulusjs ajax controller & Rawg-API. It used websocket for chatroom feature 🕹.</p>
@@ -163,8 +178,9 @@
               </a>
             </div>
 
-            <div id="project1" class="mt-5">
-              <a href="http://www.commithood.com" target="_blank"><div class="project-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/commit_hood_full_voxana.png')"></div>
+            <div id="project1" class="project-container mt-5">
+              <a href="http://www.commithood.com" target="_blank">
+                <div class="project-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/commit_hood_full_voxana.png')"></div>
                 <div id="project1-info">
                   <p>Make a commitment to improve your neighborhood! </p>
                   <p>Commit'hood is a platform I coded with 3 teamates as the final project during Le wagon bootcamp. It allows you to find all the associative events close to you 🌈.</p>
@@ -178,8 +194,9 @@
               </a>
             </div>
 
-            <div id="project2" class="mt-5">
-              <a href="https://cocktail-lovers-2046.herokuapp.com" target="_blank"><div class="project2-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/cocktail_2046_fswrva.png')"></div>
+            <div id="project2" class="mt-5 project-container">
+              <a href="https://cocktail-lovers-2046.herokuapp.com" target="_blank">
+                <div class="project-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/cocktail_2046_fswrva.png')"></div>
                 <div id="project2-info">
                   <p>Creat your own cocktail collection and recipes!</p>
                   <p>The first Rails application I've built within 2 days. Not totally functional, but it's a good beginning ✌️.</p>
@@ -194,8 +211,9 @@
               </a>
             </div>
 
-            <div id="project3" class="mt-5">
-              <a href="https://bikery.herokuapp.com" target="_blank"><div class="project3-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/bikery_full_hxwbcw.png')"></div>
+            <div id="project3" class="mt-5 project-container">
+              <a href="https://bikery.herokuapp.com" target="_blank">
+                <div class="project-img" style="background-image: linear-gradient(rgba(246, 219, 188, 0.1),rgba(246, 219, 188, 0.1)), url('https://res.cloudinary.com/diczuc7me/image/upload/v1601938428/bikery_full_hxwbcw.png')"></div>
                 <div id="project3-info">
                   <p>F*ck the cars and rent your bike today! </p>
                   <p>Bikery was an Airbnb market place clone project I coded with 3 teamates, and it's the first project we learnt to code with others as co-op ;) 🙌 </p>
@@ -220,7 +238,7 @@
             <div class="space-line"></div>
             <div class="year pt-5"><h6 >2020</h6></div>
             <div class="edu-info">
-              <h4 class="school">Le Wagon, #batch 441, France - <img src="https://dwj199mwkel52.cloudfront.net/assets/lewagon-logo-square-b6124eb974be375884558e4464efce48a9b5664f18422768156364363ecdd1fc.png" loading="lazy" width = "30px" alt="wagon"></h4>
+              <h4 class="school">Le Wagon, #batch 441, France - <img src="./src/media/lewagon.png" loading="lazy" width = "30px" alt="wagon"></h4>
               <p class="degree">Fullstack Web developer</p>
             </div>
 
@@ -238,7 +256,7 @@
           </div>
           <!-- end of education section -->
 
-          <!-- skills section -->
+          <!-- begin of skills section -->
           <div id="skills">
             <h2 class="">Skills</h2>
             <div class="space-line-light"></div>
@@ -337,15 +355,24 @@
           <!-- end of skills section -->
 
 
-
-
-        <!-- begin of experiences -->
+          <!-- begin of experiences session -->
           <div id="experiences">
             <h2>Experiences</h2>
             <div class="space-line"></div>
             <br>
             <h5 class="text-center">👇 Click each for details 💡 </h5>
             <div class="resume pt-3">
+
+              <div class="exp-space"></div>
+
+              <div class="company-exp" data-toggle="tooltip" data-html="true" title="Click for details">
+                <div class="exp-description-left">
+                  <div class= "end pr-2"><h6> Now </h6></div>
+                  <div class="pr-4 exp-title exp-btn"><p>Coding Bootcamp Teaching Assistant</p></div>
+                  <div class= "begin pr-2"><h6>10 - 2020</h6></div>
+                </div>
+                <img class="rightside" src="https://image.slidesharecdn.com/deck-lewagon-160422081616/95/le-wagon-bootcamp-in-ruby-on-rails-html-css-and-javascript-1-638.jpg?cb=1479830137" loading="lazy" alt="leWagon">
+              </div>
 
               <div class="exp-space"></div>
 
@@ -420,6 +447,22 @@
               <div class="exp-space"></div>
 
               <!-- the modal -->
+              <div class="exp-modal">
+                <div class="exp-modal-content mt-4">
+                  <div class="exp-modal-header d-flex flex-row justify-content-between">
+                    <div><h4>Teaching Assisatant</h4></div>
+                    <div><span class="exp-close">&times;</span></div>
+                  </div>
+                  <div class="exp-modal-body">
+                    <h6 class="period py-3">Paris: Oct 2020 - Now</h6>
+                    <p class="pb-3"><a href="https://www.lewagon.com"><img src="./src/media/lewagon.png" loading="lazy" alt="leWagon"> Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers.</a></p>
+                    <p><i class="fas fa-terminal"></i> Providing supports and debugging for the new wagon students during their daily coding excercises;</p>
+                    <br>
+                    <p><i class="fas fa-terminal"></i> Re-explain the concerned code and concept of the day for the students who may have questions about.</p>
+                  </div>
+                </div>
+              </div>
+
               <div class="exp-modal">
                 <div class="exp-modal-content mt-4">
                   <div class="exp-modal-header d-flex flex-row justify-content-between">
