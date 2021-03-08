@@ -30,6 +30,10 @@
     visibility: visible !important;
     opacity: 1 !important;
     position:relative !important;
+    .icon-png {
+      height: 40px;
+      width: 40px
+    }
   }
   .project-img {
     height: 40% !important;
@@ -56,6 +60,10 @@
     width: 50%;
     padding:20px;
     color: $light-grey;
+    .icon-png {
+      height: 40px;
+      width: 40px
+    }
   }
 }
 
